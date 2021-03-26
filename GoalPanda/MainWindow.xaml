@@ -1,0 +1,541 @@
+﻿<Window x:Class="GoalPanda.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GoalPanda"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        mc:Ignorable="d"
+        Title="GoalPanda" ResizeMode="CanMinimize" Height="700" Width="900">
+
+    <Grid x:Name="Grid1"  Margin="12,40,12
+          
+          
+          ,170" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="1.5*" />
+            <RowDefinition Height="1.5*" />
+            <RowDefinition Height="1.5*" />
+            <RowDefinition Height="1.5*" />
+
+
+
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+
+
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="0" Grid.Row="0">
+            <Grid.RowDefinitions>
+
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <TextBlock Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" Text="預設牌數" />
+            <TextBlock Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Text="剩餘牌數" />
+        </Grid>
+
+
+        <Grid Grid.Column="1" Grid.Row="0">
+            <Grid.RowDefinitions>
+
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+
+            <xctk:IntegerUpDown Grid.Row="0" 
+                          VerticalAlignment="Center" 
+                          HorizontalAlignment="Center" 
+                          x:Name="df_1"
+                          Value="24"
+                         
+                              />
+            <xctk:IntegerUpDown Grid.Row="1" 
+                          VerticalAlignment="Center" 
+                          HorizontalAlignment="Center" 
+                          x:Name="lf_1"
+                          Value="24"
+                           />
+
+        </Grid>
+        <Grid Grid.Column="2" Grid.Row="0">
+            <Grid.RowDefinitions>
+
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+
+            <xctk:IntegerUpDown Grid.Row="0" 
+                          VerticalAlignment="Center" 
+                          HorizontalAlignment="Center" 
+                          x:Name="df_2"
+                          Value="12"
+                          />
+            <xctk:IntegerUpDown Grid.Row="1" 
+                          VerticalAlignment="Center" 
+                          HorizontalAlignment="Center" 
+                          x:Name="lf_2"
+                          Value="12"
+                           />
+
+        </Grid>
+        <Grid Grid.Column="3" Grid.Row="0">
+            <Grid.RowDefinitions>
+
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+
+            <xctk:IntegerUpDown Grid.Row="0" 
+                          VerticalAlignment="Center" 
+                          HorizontalAlignment="Center" 
+                          x:Name="df_3"
+                          Value="12"
+                           />
+            <xctk:IntegerUpDown Grid.Row="1" 
+                          VerticalAlignment="Center" 
+                          HorizontalAlignment="Center" 
+                          x:Name="lf_3"
+                          Value="12"
+                          />
+
+        </Grid>
+        <Grid Grid.Column="4" Grid.Row="0">
+            <Grid.RowDefinitions>
+
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+
+            <xctk:IntegerUpDown Grid.Row="0" 
+                          VerticalAlignment="Center" 
+                          HorizontalAlignment="Center" 
+                          x:Name="df_4"
+                          Value="12"
+                           />
+            <xctk:IntegerUpDown Grid.Row="1" 
+                          VerticalAlignment="Center" 
+                          HorizontalAlignment="Center" 
+                          x:Name="lf_4"
+                          Value="12"
+                           />
+
+        </Grid>
+        <Grid Grid.Column="5" Grid.Row="0">
+            <Grid.RowDefinitions>
+
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+
+            <xctk:IntegerUpDown Grid.Row="0" 
+                          VerticalAlignment="Center" 
+                          HorizontalAlignment="Center" 
+                          x:Name="df_5"
+                          Value="12"
+                           />
+            <xctk:IntegerUpDown Grid.Row="1" 
+                          VerticalAlignment="Center" 
+                          HorizontalAlignment="Center" 
+                          x:Name="lf_5"
+                          Value="12"
+                           />
+
+        </Grid>
+        <Grid Grid.Column="6" Grid.Row="0">
+            <Grid.RowDefinitions>
+
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+
+            <xctk:IntegerUpDown Grid.Row="0" 
+                          VerticalAlignment="Center" 
+                          HorizontalAlignment="Center" 
+                          x:Name="df_6"
+                          Value="12"
+                           />
+            <xctk:IntegerUpDown Grid.Row="1" 
+                          VerticalAlignment="Center" 
+                          HorizontalAlignment="Center" 
+                          x:Name="lf_6"
+                          Value="12"
+                          />
+
+        </Grid>
+        <Grid Grid.Column="7" Grid.Row="0">
+            <Grid.RowDefinitions>
+
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+
+            <xctk:IntegerUpDown Grid.Row="0" 
+                          VerticalAlignment="Center" 
+                          HorizontalAlignment="Center" 
+                          x:Name="df_7"
+                          Value="24"
+                           />
+            <xctk:IntegerUpDown Grid.Row="1" 
+                          VerticalAlignment="Center" 
+                          HorizontalAlignment="Center" 
+                          x:Name="lf_7"
+                          Value="24"
+                           />
+
+        </Grid>
+        <Grid Grid.Column="8" Grid.Row="0">
+            <Grid.RowDefinitions>
+
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+
+            <xctk:IntegerUpDown Grid.Row="0" 
+                          VerticalAlignment="Center" 
+                          HorizontalAlignment="Center" 
+                          x:Name="df_8"
+                          Value="12"
+                          />
+            <xctk:IntegerUpDown Grid.Row="1" 
+                          VerticalAlignment="Center" 
+                          HorizontalAlignment="Center" 
+                          x:Name="lf_8"
+                          Value="12"
+                          />
+
+        </Grid>
+        <Grid Grid.Column="9" Grid.Row="0">
+            <Grid.RowDefinitions>
+
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+
+            <xctk:IntegerUpDown Grid.Row="0" 
+                          VerticalAlignment="Center" 
+                          HorizontalAlignment="Center" 
+                          x:Name="df_9"
+                          Value="12"
+                           />
+            <xctk:IntegerUpDown Grid.Row="1" 
+                          VerticalAlignment="Center" 
+                          HorizontalAlignment="Center" 
+                          x:Name="lf_9"
+                          Value="12"
+                           />
+
+        </Grid>
+        <Grid Grid.Column="10" Grid.Row="0" >
+            <Grid.RowDefinitions>
+
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <xctk:IntegerUpDown Grid.Row="0" 
+                          VerticalAlignment="Center" 
+                          HorizontalAlignment="Center" 
+                          x:Name="df_10"
+                          Value="12"
+                           />
+            <xctk:IntegerUpDown Grid.Row="1" 
+                          VerticalAlignment="Center" 
+                          HorizontalAlignment="Center" 
+                          x:Name="lf_10"
+                          Value="12"
+                           />
+
+        </Grid>
+        <Grid Grid.Column="11" Grid.Row="0">
+            <Grid.RowDefinitions>
+
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <xctk:IntegerUpDown Grid.Row="0" 
+                          VerticalAlignment="Center" 
+                          HorizontalAlignment="Center" 
+                          x:Name="df_11"
+                          Value="12"
+                          />
+            <xctk:IntegerUpDown Grid.Row="1" 
+                          VerticalAlignment="Center" 
+                          HorizontalAlignment="Center" 
+                          x:Name="lf_11"
+                          Value="12"
+                          />
+
+        </Grid>
+        <Grid Grid.Column="12" Grid.Row="0">
+            <Grid.RowDefinitions>
+
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+
+            <xctk:IntegerUpDown Grid.Row="0" 
+                          VerticalAlignment="Center" 
+                          HorizontalAlignment="Center" 
+                          x:Name="df_12"
+                          Value="12"
+                          />
+            <xctk:IntegerUpDown Grid.Row="1" 
+                          VerticalAlignment="Center" 
+                          HorizontalAlignment="Center" 
+                          x:Name="lf_12"
+                          Value="12"
+                           />
+
+        </Grid>
+        <Grid Grid.Column="14" Grid.Row="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <xctk:IntegerUpDown Grid.Row="0" 
+                          VerticalAlignment="Center" 
+                          HorizontalAlignment="Center" 
+                          x:Name="df_13"
+                          Value="24"
+                           />
+            <xctk:IntegerUpDown Grid.Row="1" 
+                          VerticalAlignment="Center" 
+                          HorizontalAlignment="Center" 
+                          x:Name="lf_13"
+                          Value="24"
+                           />
+
+        </Grid>
+
+        <TextBlock Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Text="第一張牌" />
+
+        <Button x:Name="Row1bt1" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  BorderThickness="0" Click="Row1_Click"   Margin="0,0,0,0" >
+            <Image x:Name="Image1" Source="Assets/cards/1.jpg" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center"   />
+        </Button>
+        <Button x:Name="Row1bt2" Grid.Column="2" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  BorderThickness="0" Click="Row1_Click"   Margin="0,0,0,0" >
+            <Image x:Name="Image2" Source="Assets/cards/2.jpg
+" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center" />
+        </Button>
+        <Button x:Name="Row1bt3" Grid.Column="3" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  BorderThickness="0" Click="Row1_Click"   Margin="0,0,0,0" >
+            <Image x:Name="Image3" Source="Assets/cards/3.jpg" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center"  />
+        </Button>
+        <Button x:Name="Row1bt4" Grid.Column="4" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  BorderThickness="0" Click="Row1_Click"   Margin="0,0,0,0" >
+            <Image x:Name="Image4" Source="Assets/cards/4.jpg
+" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center" />
+        </Button>
+
+        <Button x:Name="Row1bt5" Grid.Column="5" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  BorderThickness="0" Click="Row1_Click"   Margin="0,0,0,0" >
+            <Image x:Name="Image5" Source="Assets/cards/5.jpg" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center" />
+        </Button>
+        <Button x:Name="Row1bt6" Grid.Column="6" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  BorderThickness="0" Click="Row1_Click"   Margin="0,0,0,0" >
+            <Image x:Name="Image6" Source="Assets/cards/6.jpg
+" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center"    />
+        </Button>
+        <Button x:Name="Row1bt7" Grid.Column="7" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  BorderThickness="0" Click="Row1_Click"   Margin="0,0,0,0" >
+            <Image x:Name="Image7" Source="Assets/cards/7.jpg" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center"    />
+        </Button>
+        <Button x:Name="Row1bt8" Grid.Column="8" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  BorderThickness="0" Click="Row1_Click"   Margin="0,0,0,0" >
+            <Image x:Name="Image8" Source="Assets/cards/8.jpg
+" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center"    />
+        </Button>
+
+        <Button x:Name="Row1bt9" Grid.Column="9" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  BorderThickness="0" Click="Row1_Click"   Margin="0,0,0,0" >
+            <Image x:Name="Image9" Source="Assets/cards/9.jpg" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center"    />
+        </Button>
+        <Button x:Name="Row1bt10" Grid.Column="10" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  BorderThickness="0" Click="Row1_Click"  Margin="0,0,0,0" >
+            <Image x:Name="Image10" Source="Assets/cards/10.jpg
+" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center"    />
+        </Button>
+
+        <Button x:Name="Row1bt11" Grid.Column="11" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  BorderThickness="0" Click="Row1_Click"   Margin="0,0,0,0" >
+            <Image x:Name="Image11" Source="Assets/cards/11.jpg" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center"    />
+        </Button>
+        <Button x:Name="Row1bt12" Grid.Column="12" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  BorderThickness="0" Click="Row1_Click"   Margin="0,0,0,0" >
+            <Image x:Name="Image12" Source="Assets/cards/12.jpg
+" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center"    />
+        </Button>
+        <Button x:Name="Row1bt13" Grid.Column="13" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  BorderThickness="0" Click="Row1_Click"   Margin="0,0,0,0" >
+            <Image x:Name="Image13" Source="Assets/cards/13.jpg
+" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center"    />
+        </Button>
+
+
+
+        <TextBlock Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Text="第二張牌" />
+
+        <Button x:Name="Row2bt1" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  BorderThickness="0" Click="Row2_Click"   Margin="0,0,0,0" >
+            <Image x:Name="Image1_1" Source="Assets/cards/1.jpg" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center"    />
+        </Button>
+        <Button x:Name="Row2bt2" Grid.Column="2" Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  BorderThickness="0" Click="Row2_Click"   Margin="0,0,0,0" >
+            <Image x:Name="Image1_2" Source="Assets/cards/2.jpg
+" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center"    />
+        </Button>
+        <Button x:Name="Row2bt3" Grid.Column="3" Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  BorderThickness="0" Click="Row2_Click"   Margin="0,0,0,0" >
+            <Image x:Name="Image1_3" Source="Assets/cards/3.jpg" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center"    />
+        </Button>
+        <Button x:Name="Row2bt4" Grid.Column="4" Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  BorderThickness="0" Click="Row2_Click"   Margin="0,0,0,0" >
+            <Image x:Name="Image1_4" Source="Assets/cards/4.jpg
+" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center"    />
+        </Button>
+
+        <Button x:Name="Row2bt5" Grid.Column="5" Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  BorderThickness="0" Click="Row2_Click"   Margin="0,0,0,0" >
+            <Image x:Name="Image1_5" Source="Assets/cards/5.jpg" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center"    />
+        </Button>
+        <Button x:Name="Row2bt6" Grid.Column="6" Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  BorderThickness="0" Click="Row2_Click"   Margin="0,0,0,0" >
+            <Image x:Name="Image1_6" Source="Assets/cards/6.jpg
+" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center"    />
+        </Button>
+        <Button x:Name="Row2bt7" Grid.Column="7" Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  BorderThickness="0" Click="Row2_Click"   Margin="0,0,0,0" >
+            <Image x:Name="Image1_7" Source="Assets/cards/7.jpg" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center"    />
+        </Button>
+        <Button x:Name="Row2bt8" Grid.Column="8" Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  BorderThickness="0" Click="Row2_Click"   Margin="0,0,0,0" >
+            <Image x:Name="Image1_8" Source="Assets/cards/8.jpg
+" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center"    />
+        </Button>
+
+        <Button x:Name="Row2bt9" Grid.Column="9" Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  BorderThickness="0" Click="Row2_Click"   Margin="0,0,0,0" >
+            <Image x:Name="Image1_9" Source="Assets/cards/9.jpg" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center"    />
+        </Button>
+        <Button x:Name="Row2bt10" Grid.Column="10" Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  BorderThickness="0" Click="Row2_Click"  Margin="0,0,0,0" >
+            <Image x:Name="Image1_10" Source="Assets/cards/10.jpg
+" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center"    />
+        </Button>
+        <Button x:Name="Row2bt11" Grid.Column="11" Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  BorderThickness="0" Click="Row2_Click"   Margin="0,0,0,0" >
+            <Image x:Name="Image1_11" Source="Assets/cards/11.jpg" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center"    />
+        </Button>
+        <Button x:Name="Row2bt12" Grid.Column="12" Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  BorderThickness="0" Click="Row2_Click"   Margin="0,0,0,0" >
+            <Image x:Name="Image1_12" Source="Assets/cards/12.jpg
+" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center"    />
+        </Button>
+        <Button x:Name="Row2bt13" Grid.Column="13" Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  BorderThickness="0" Click="Row2_Click"   Margin="0,0,0,0" >
+            <Image x:Name="Image1_13" Source="Assets/cards/13.jpg
+" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center"    />
+        </Button>
+        <TextBlock Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Text="開牌" />
+
+        <Button x:Name="Row3bt1" Grid.Column="1" Grid.Row="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  BorderThickness="0" Click="Row3_Click"   Margin="0,0,0,0" >
+            <Image x:Name="Image2_1" Source="Assets/cards/1.jpg" Stretch="Fill" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"    />
+        </Button>
+        <Button x:Name="Row3bt2" Grid.Column="2" Grid.Row="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  BorderThickness="0" Click="Row3_Click"   Margin="0,0,0,0" >
+            <Image x:Name="Image2_2" Source="Assets/cards/2.jpg
+" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center"    />
+        </Button>
+        <Button x:Name="Row3bt3" Grid.Column="3" Grid.Row="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  BorderThickness="0" Click="Row3_Click"   Margin="0,0,0,0" >
+            <Image x:Name="Image2_3" Source="Assets/cards/3.jpg" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center"    />
+        </Button>
+        <Button x:Name="Row3bt4" Grid.Column="4" Grid.Row="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  BorderThickness="0" Click="Row3_Click"   Margin="0,0,0,0" >
+            <Image x:Name="Image2_4" Source="Assets/cards/4.jpg
+" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center"    />
+        </Button>
+
+        <Button x:Name="Row3bt5" Grid.Column="5" Grid.Row="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  BorderThickness="0" Click="Row3_Click"   Margin="0,0,0,0" >
+            <Image x:Name="Image2_5" Source="Assets/cards/5.jpg" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center"    />
+        </Button>
+        <Button x:Name="Row3bt6" Grid.Column="6" Grid.Row="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  BorderThickness="0" Click="Row3_Click"   Margin="0,0,0,0" >
+            <Image x:Name="Image2_6" Source="Assets/cards/6.jpg" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center"    />
+        </Button>
+        <Button x:Name="Row3bt7" Grid.Column="7" Grid.Row="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  BorderThickness="0" Click="Row3_Click"   Margin="0,0,0,0" >
+            <Image x:Name="Image2_7" Source="Assets/cards/7.jpg" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center"    />
+        </Button>
+        <Button x:Name="Row3bt8" Grid.Column="8" Grid.Row="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  BorderThickness="0" Click="Row3_Click"   Margin="0,0,0,0" >
+            <Image x:Name="Image2_8" Source="Assets/cards/8.jpg" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center"    />
+        </Button>
+
+        <Button x:Name="Row3bt9" Grid.Column="9" Grid.Row="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  BorderThickness="0" Click="Row3_Click"   Margin="0,0,0,0" >
+            <Image x:Name="Image2_9" Source="Assets/cards/9.jpg" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center"    />
+        </Button>
+        <Button x:Name="Row3bt10" Grid.Column="10" Grid.Row="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  BorderThickness="0" Click="Row3_Click"  Margin="0,0,0,0" >
+            <Image x:Name="Image2_10" Source="Assets/cards/10.jpg
+" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center"    />
+        </Button>
+        <Button x:Name="Row3bt11" Grid.Column="11" Grid.Row="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  BorderThickness="0" Click="Row3_Click"   Margin="0,0,0,0" >
+            <Image x:Name="Image2_11" Source="Assets/cards/11.jpg" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center"    />
+        </Button>
+        <Button x:Name="Row3bt12" Grid.Column="12" Grid.Row="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  BorderThickness="0" Click="Row3_Click"   Margin="0,0,0,0" >
+            <Image x:Name="Image2_12" Source="Assets/cards/12.jpg
+" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center"    />
+        </Button>
+        <Button x:Name="Row3bt13" Grid.Column="13" Grid.Row="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  BorderThickness="0" Click="Row3_Click"   Margin="0,0,0,0" >
+            <Image x:Name="Image2_13" Source="Assets/cards/13.jpg
+" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center"    />
+        </Button>
+
+
+
+        <Border Grid.Column="0" BorderThickness="1" BorderBrush="Black" Grid.RowSpan="4" HorizontalAlignment="Left" Margin="0,0,0,0"/>
+        <Border Grid.Column="14" BorderThickness="1" BorderBrush="Black" Grid.RowSpan="4" HorizontalAlignment="Right" Margin="0,0,0,0"/>
+
+        <Border Grid.Row="0" BorderThickness="1" BorderBrush="Black" VerticalAlignment="Top" Grid.ColumnSpan="15" Margin="0,0,0,0"/>
+        <Border Grid.Row="3" BorderThickness="1" BorderBrush="Black" VerticalAlignment="Top" Grid.ColumnSpan="15" Margin="0,0,0,0"/>
+        <Border Grid.Row="4" BorderThickness="1" BorderBrush="Black" VerticalAlignment="Top" Grid.ColumnSpan="15" Margin="0,0,0,0"/>
+
+
+
+
+
+        <Image x:Name="last_1" Source="Assets/cards/13.jpg" Stretch="Uniform" Visibility="Visible" Margin="34,10,34,15" Opacity="0.75"  Grid.Row="4" Grid.Column="5" Grid.ColumnSpan="2"   />
+
+
+
+        <Image x:Name="last_3" Source="Assets/cards/13.jpg" Stretch="Uniform" Visibility="Visible" Margin="34,10,34,15"  Opacity="0.75" Grid.Column="6" Grid.Row="4" Grid.ColumnSpan="2"   />
+
+
+
+        <Image x:Name="last_2"  Source="Assets/cards/13.jpg" Stretch="Uniform" Visibility="Visible" Margin="34,10,34,15"  Opacity="0.75" Grid.Column="7" Grid.Row="4" Grid.ColumnSpan="2"   />
+
+
+        <TextBlock  Grid.Row="4" HorizontalAlignment="Left" VerticalAlignment="Center" Text="勝率" FontSize="20" Visibility="Visible" Margin="48,120,0,-46" Grid.ColumnSpan="2" RenderTransformOrigin="0.5,0.24"  />
+        <TextBlock  Grid.Row="4" Grid.Column="5" Grid.ColumnSpan="2"  HorizontalAlignment="Center" VerticalAlignment="Bottom" Text="中柱率" FontSize="20" Visibility="Visible" Margin="26,0,38,-42"/>
+        <TextBlock  Grid.Row="4" Grid.Column="9" Grid.ColumnSpan="2"  HorizontalAlignment="Center" VerticalAlignment="Center" Text="期望值" FontSize="20" Visibility="Visible" Margin="33,116,31,-43"   />
+        <TextBlock x:Name="TB_win" Grid.Row="4"  Grid.Column="1" Grid.ColumnSpan="4" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Text="0" FontSize="24" Visibility="Visible" Margin="35,121,0,-132"  />
+        <TextBlock x:Name="TB_middle" Grid.Row="4" Grid.Column="6" Grid.ColumnSpan="4"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="24" Visibility="Visible" Margin="29,120,54,-131" Text="0"/>
+        <TextBlock x:Name="TB_EV_A" Grid.Row="4" Grid.Column="10" Grid.ColumnSpan="4"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Text="0" FontSize="24" Visibility="Visible" Margin="36,121,49,-56" Foreground="#FF080808"   />
+        <Button Content="Reset" Grid.Column="12" HorizontalAlignment="Left" Margin="17,-34,0,0" VerticalAlignment="Top"  Click="Reset" Width="80" Grid.ColumnSpan="2"/>
+        <Label x:Name="lb_odd" Content="" HorizontalAlignment="Left" Margin="7,27,0,0" Grid.Row="4" VerticalAlignment="Top" Width="55"/>
+        <Label Content="賠率" HorizontalAlignment="Left" Margin="0,2,0,0" Grid.Row="4" VerticalAlignment="Top"/>
+        <TextBlock x:Name="TB_EV_B" Grid.Row="4" Grid.Column="10" Grid.ColumnSpan="4"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Text="0" FontSize="24" Visibility="Visible" Margin="36,150,48,-85" Foreground="#FF080808"   />
+        <TextBlock x:Name="TB_EV_C" Grid.Row="4" Grid.Column="10" Grid.ColumnSpan="4"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Text="0" FontSize="24" Visibility="Visible" Margin="36,179,49,-118" Foreground="#FF080808"   />
+
+        <!--<Border Grid.Column="1" BorderThickness="2" BorderBrush="Black" Grid.RowSpan="2" HorizontalAlignment="Left" Margin="330,0,0,0" VerticalAlignment="Stretch" Width="4"/>
+            <Border Grid.Column="0" BorderThickness="2" BorderBrush="Black" Grid.RowSpan="2" HorizontalAlignment="Left" Margin="329,0,0,0" VerticalAlignment="Stretch" Width="4"/>
+
+            <Border Grid.Row="0" BorderThickness="2" BorderBrush="Black" Grid.ColumnSpan="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+            <Border Grid.Row="1" BorderThickness="2" BorderBrush="Black" Grid.ColumnSpan="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>-->
+
+    </Grid>
+
+
+
+</Window>
